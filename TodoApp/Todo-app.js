@@ -34,5 +34,8 @@ while (true) {
             list.splice(idx, 1);
         }
     }
+    else {
+        console.log("Task number doesnot exist ");
+    }
     task = prompt("  Enter the task number that you want to perform ");
    }
